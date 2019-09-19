@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+	.blue-display-menu{
+/*	background-color: #878be6;*/
+	background-image: url("image/bg.png");
+	padding: 120px 60px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+@media(max-width:991px){
+	.hr{
+		display: none;
+	}
+}
+.blue-display-logo {
+	color: #878be6;
+	font-weight: bolder!important;
+	font-size: 40px;
+	flex-shrink: 3;
+	
+	justify-content: center;
+/*	text-align: right !important;*/
+	
+	display: flex !important;
+	flex-flow: row !important;
+}
+.login-form{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+select{
+	border: none!important;	
+	width:50%;
+}
+input{
+	border: none!important;	
+	width:50%;
+}
+/*side navbar*/
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+/*
+p  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+*/
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 150px;
+/*    background: #7386D5;*/
+    color: dimgray;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+
+#sidebar ul.components {
+    padding: 30px 0;
+	
+   
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 20px 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background-color: gainsboro;
+}
+
+/*
+#sidebar ul li.active>a,
+a[aria-expanded="true"]{
+    color: gray;
+    background-color: darkgray;
+}
+*/
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+iframe.example {  width: 100%;  height: 600px; } 
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+   
+}
+.badge-purple{
+	background-color: #878be6;
+	color: white;
+	
+}
+.mt--20{
+	margin-top: -20px;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.btn-purple{
+	width:15px;
+	height:15px;
+	background-color: #878be6;
+}
+.p-4-5 {
+  padding: 2.2em 10px !important;
+}
+.side-header{
+	background-image: url("images/updated.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 260px;
+	min-width: 200px;
+	
+}
+
+/*end of sidenavbar css*/

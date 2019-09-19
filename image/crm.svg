@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="906" height="463" viewBox="0 0 906 463">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 83.333px;
+        fill: #878be6;
+        font-family: Bahnschrift;
+        font-weight: 600;
+      }
+    </style>
+    <image id="image" width="90" height="99" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABjCAYAAAAb3RdnAAABDUlEQVR4nO3QwQ2DUAwFQROR/ttLLyD9XGiBTYRmCrD1dltrrZk5hrtsM/PZr+NvmW+1vx487q8IHRE6InRE6IjQEaEjQkeEjggdEToidEToiNARoSNCR4SOCB0ROiJ0ROiI0BGhI0JHhI4IHRE6InRE6IjQEaEjQkeEjggdEToidEToiNARoSNCR4SOCB0ROiJ0ROiI0BGhI0JHhI4IHRE6InRE6IjQEaEjQkeEjggdEToidEToiNARoSNCR4SOCB0ROiJ0ROiI0BGhI0JHhI4IHRE6InRE6IjQEaEjQkeEjggdEToidEToiNARoSNCR4SOCB0ROiJ0ROiI0BGhI0JH9uvN8filv7PNzPkFNe4Im0qFL6MAAAAASUVORK5CYII="/>
+  </defs>
+  <use id="Rectangle_1" data-name="Rectangle 1" x="292" y="181" xlink:href="#image"/>
+  <use id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" x="402" y="181" xlink:href="#image"/>
+  <image id="Rectangle_1_copy_3" data-name="Rectangle 1 copy 3" x="508" y="181" width="90" height="99" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABjCAYAAAAb3RdnAAABEElEQVR4nO3QwQ3CUAwFQYN+OqNrSgtSuKSFLCiaKcDW28dxHO+Zec3MPlxlWzOzzuObzNd53nXYvxE6InRE6IjQEaEjQkeEjggdEToidEToiNARoSNCR4SOCB0ROiJ0ROiI0BGhI0JHhI4IHRE6InRE6IjQEaEjQkeEjggdEToidEToiNARoSNCR4SOCB0ROiJ0ROiI0BGhI0JHhI4IHRE6InRE6IjQEaEjQkeEjggdEToidEToiNARoSNCR4SOCB0ROiJ0ROiI0BGhI0JHhI4IHRE6InRE6IjQEaEjQkeEjggdEToidEToiNARoSNCR4SOCB0ROiJ0ROiI0BGhI0JHhI6smfmcr/bbr/2Vme0LGBMHy5SLo3EAAAAASUVORK5CYII="/>
+  <text id="C" class="cls-1" x="296" y="265">C</text>
+  <text id="R" class="cls-1" x="406" y="265">R</text>
+  <text id="M" class="cls-1" transform="translate(506 262.284) scale(0.92 0.889)">M</text>
+</svg>
